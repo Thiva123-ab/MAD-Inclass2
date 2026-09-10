@@ -75,11 +75,7 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
               child: const CircleAvatar(
                 backgroundColor: Colors.white,
-                child: Icon(
-                  Icons.person,
-                  size: 80,
-                  color: Colors.black,
-                ),
+                backgroundImage: AssetImage('assets/profile.jpg'),
               ),
             ),
 
@@ -109,7 +105,7 @@ class _ProfilePageState extends State<ProfilePage> {
             const Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Diluka',
+                'Thinka Tharuka',
                 style: TextStyle(
                   fontSize: 18,
                 ),
@@ -143,7 +139,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                   SizedBox(width: 10),
                   Text(
-                    'diluka.w@nsbm.ac.lk',
+                    'thivanka.ac.lk',
                     style: TextStyle(
                       fontSize: 18,
                     ),
